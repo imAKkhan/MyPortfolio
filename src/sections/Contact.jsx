@@ -14,10 +14,10 @@ export default function Contact() {
 
     emailjs
       .sendForm(
-        "service_b1n93ah",      // ✔ EmailJS Service ID
-        "template_n6ll9vc",     // ✔ EmailJS Template ID
+        "service_b1n93ah",      
+        "template_n6ll9vc",     
         formRef.current,
-        "jy-wlg6T4oLmr5xRj"     // ✔ EmailJS Public Key
+        "jy-wlg6T4oLmr5xRj"     
       )
       .then(
         () => {
@@ -42,7 +42,6 @@ export default function Contact() {
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 px-6">
 
-        {/* LEFT SIDE — ANIMATED ASTRONAUT IMAGE */}
         <motion.div
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -66,7 +65,7 @@ export default function Contact() {
           />
         </motion.div>
 
-        {/* RIGHT SIDE — CONTACT FORM */}
+      
         <motion.div
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}

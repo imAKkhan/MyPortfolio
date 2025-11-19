@@ -17,13 +17,13 @@ export default function OverlayMenu({ isOpen, onClose }) {
           transition={{ duration: 0.7, ease: [0.4, 0, 0.2, 1] }}
           style={{
             backgroundColor: "rgba(0,0,0,0.95)",
-            pointerEvents: "auto", // ✅ ensures clicks are active
+            pointerEvents: "auto", 
           }}
         >
           <button onClick={onClose}
-            className="absolute top-6 right-6 text-white text-3xl " // ✅ higher z-index ensures clickable
+            className="absolute top-6 right-6 text-white text-3xl " 
             aria-label="Close-Menu"
-            style={{ pointerEvents: "auto" }} // ✅ ensures button is clickable
+            style={{ pointerEvents: "auto" }} 
           >
             <FiX/>
           </button>

@@ -4,10 +4,10 @@ export default function MyWork() {
   return (
     <section className="w-full text-black">
 
-      {/* ---------------- BANKING SYSTEM PROJECT ---------------- */}
+
       <section className="min-h-screen w-full bg-gradient-to-b from-[#dbeafe] to-[#bfdbfe] px-6 py-16">
 
-        {/* Top Section */}
+
         <div className="max-w-6xl mx-auto flex justify-between items-start">
           <motion.h1
             initial={{ opacity: 0, y: -30 }}
@@ -28,7 +28,7 @@ export default function MyWork() {
           </motion.h2>
         </div>
 
-        {/* Project Card */}
+
         <div className="max-w-6xl mx-auto mt-16 flex flex-col items-center">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -48,14 +48,14 @@ export default function MyWork() {
                 alt="Banking Project"
               />
 
-              {/* Text inside image */}
+
               <motion.div
                 initial={{ opacity: 0, x: -40 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 className="absolute top-16 left-16"
               >
-                {/* Blue → Purple Gradient Title */}
+
                 <h3 className="text-4xl font-extrabold leading-tight 
                 bg-gradient-to-r from-[#00aaff] via-[#5f4bff] to-[#b400ff]
                 text-transparent bg-clip-text
@@ -73,7 +73,7 @@ export default function MyWork() {
             </motion.div>
           </motion.div>
 
-          {/* GitHub Button */}
+
           <motion.a
             href="https://github.com/imAKkhan/BankingSystem"
             target="_blank"
@@ -91,10 +91,10 @@ export default function MyWork() {
 
 
 
-      {/* ---------------- STUDENT ATTENDANCE SYSTEM PROJECT ---------------- */}
+
       <section className="min-h-screen w-full bg-gradient-to-b from-[#d9ffe8] to-[#b0f5c8] px-6 py-16">
 
-        {/* Top Section */}
+
         <div className="max-w-6xl mx-auto flex justify-between items-start">
           <motion.h1
             initial={{ opacity: 0, y: -30 }}
@@ -115,7 +115,7 @@ export default function MyWork() {
           </motion.h2>
         </div>
 
-        {/* Project Card */}
+
         <div className="max-w-6xl mx-auto mt-16 flex flex-col items-center">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -135,14 +135,13 @@ export default function MyWork() {
                 alt="Attendance System"
               />
 
-              {/* Text inside image */}
               <motion.div
                 initial={{ opacity: 0, x: -40 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
                 className="absolute top-16 left-16"
               >
-                {/* 💚 GREEN GRADIENT TITLE */}
+
                 <h3 className="text-4xl font-extrabold leading-tight 
                 bg-gradient-to-r from-[#00ff9d] via-[#00d86c] to-[#009944]
                 text-transparent bg-clip-text
@@ -160,7 +159,7 @@ export default function MyWork() {
             </motion.div>
           </motion.div>
 
-          {/* GitHub Button */}
+
           <motion.a
             href="https://github.com/imAKkhan/StudentAttendanceSystem"
             target="_blank"

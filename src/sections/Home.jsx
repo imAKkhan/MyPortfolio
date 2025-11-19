@@ -11,7 +11,7 @@ const socials = [
   { Icon: FaYoutube, label: "YouTube", href: "https://www.youtube.com/@Imakkhan." },
 ];
 
-// ❌ FIXED: grab → rgba, stiffiness → stiffness, spacing issues
+
 const glowvariants = {
   initial: {
     scale: 1,
@@ -92,7 +92,7 @@ export default function Home() {
         <div className="flex flex-col justify-center h-full text-center lg:text-left relative">
           <div className="w-full lg:pr-24 mx-auto max-w-[48rem]">
 
-            {/* Typing Animation */}
+           
             <motion.div
               className="mb-3 text-xl sm:text-3xl lg:text-4xl font-semibold text-white tracking-wide min-h-[1.6em]"
               initial={{ opacity: 0, y: 12 }}
@@ -107,7 +107,7 @@ export default function Home() {
               ></span>
             </motion.div>
 
-            {/* Heading */}
+           
             <motion.h1
               className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-transparent bg-clip-text
 bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg "
@@ -122,7 +122,7 @@ bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg "
               </span>
             </motion.h1>
 
-            {/* Paragraph */}
+          
             <motion.p
               className="mt-6 text-base sm:text-lg md:text-xl text-gray-300 max-w-2xl mx-auto lg:mx-0"
               initial={{ opacity: 0, y: 20 }}
@@ -132,7 +132,7 @@ bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] drop-shadow-lg "
               Detail-oriented Java Developer skilled in Java, Spring Boot, REST APIs, SQL, and Web application development.
             </motion.p>
 
-            {/* Buttons */}
+         
             <motion.div
               className="mt-10 flex flex-wrap items-center justify-center lg:justify-start gap-6"
               initial={{ opacity: 0 }}
@@ -157,7 +157,6 @@ shadow-lg hover:scale-110 transition-all"
               </a>
             </motion.div>
 
-            {/* Social Icons */}
             <div className="mt-10 flex gap-5 text-2xl md:text-3xl justify-center lg:justify-start">
               {socials.map(({ Icon, label, href }) => (
                 <motion.a

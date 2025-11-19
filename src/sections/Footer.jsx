@@ -11,13 +11,13 @@ export default function Footer() {
         viewport={{ once: true }}
         className="text-center"
       >
-        {/* NAME */}
+
         <h2 className="text-4xl font-bold mb-2">Ashhar Kaunain Khan</h2>
 
-        {/* BLUE UNDERLINE */}
+    
         <div className="w-24 h-1 bg-blue-500 mx-auto mb-6 rounded-full"></div>
 
-        {/* SOCIAL ICONS */}
+     
         <div className="flex items-center justify-center gap-6 mb-6 text-2xl">
           <a
             href="https://x.com/_ImaKkhan"
@@ -44,12 +44,12 @@ export default function Footer() {
           </a>
         </div>
 
-        {/* QUOTE */}
+     
         <p className="text-gray-400 italic mb-4">
           “Success is when preparation meets opportunity.”
         </p>
 
-        {/* COPYRIGHT */}
+    
         <p className="text-gray-500 text-sm">
           © {new Date().getFullYear()} Ashhar Kaunain Khan. All rights reserved.
         </p>
