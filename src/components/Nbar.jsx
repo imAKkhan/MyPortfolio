@@ -3,16 +3,14 @@ import { IoMenu } from "react-icons/io5";
 import Logo from "../assets/Logo.png";
 import OverlayMenu from "./OverlayMenu";
 
-export default function Navbar() {
+export default function Nbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [visible, setVisible] = useState(true);
   const [forceVisible, setForceVisible] = useState(false);
   const lastScrollY = useRef(0);
   const timeId = useRef(null);
 
-  // =========================
-  // 🔥 HOME SECTION VISIBILITY
-  // =========================
+
   useEffect(() => {
     const homeSection = document.querySelector("#home");
     const observer = new IntersectionObserver(
@@ -34,9 +32,7 @@ export default function Navbar() {
     };
   }, []);
 
-  // =========================
-  // 🔥 SCROLL HANDLING
-  // =========================
+  
   useEffect(() => {
     const handleScroll = () => {
       if (forceVisible) {

@@ -2,7 +2,7 @@
 import React from "react";
 import CustomCursor from "./components/CustomCursor";
 import IntroAnimation from "./components/IntroAnimation";
-import Navbar from "./components/NavBar";
+import Nbar from "./components/Nbar";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
@@ -23,7 +23,7 @@ export default function App() {
     <div className="relative gradient text-white">
      {/* <ParticleBackground />*/}
       <CustomCursor/>
-      <Navbar />
+      <Nbar />
       <Home />
       <About />
       <Skills />
